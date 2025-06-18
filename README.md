@@ -1,5 +1,6 @@
 # obsidian-webcalendar-tasks-manager
 Pull tasks from webcal:// calendar subscriptions and add them to your obsidian daily note
+This is developed through deepseek V3 0324 served through openrouter.ai
 
 ---
 # iCalendar Task Sync for Obsidian
@@ -16,8 +17,8 @@ A Python script that syncs tasks from `.ics` calendars to **daily Markdown notes
 ⚠️ **Note**: This is *not* an Obsidian plugin. It generates files externally that Obsidian can read.
 
 ## 🛠️ Setup
-1. Download the main.py code and put it in your obsidian vault
-2. Configure your calendar URL in `main.py`:
+1. Download the tasksV3.py code and put it in your obsidian vault
+2. Configure your calendar URL in `tasksV3.py`:
    ```python
    CALENDAR_URL = "https://your-calendar-feed.ics" 
    ```
@@ -28,7 +29,7 @@ A Python script that syncs tasks from `.ics` calendars to **daily Markdown notes
 4. Run:
    ```bash
    cd path-to-your-obsidian-vault
-   python main.py  # Outputs to YOUR_VAULT/YYYY/MMMM/YYYY-MM-DD.md
+   python tasksV3.py  # Outputs to YOUR_VAULT/YYYY/MMMM/YYYY-MM-DD.md
    ```
 
 ## 🗂️ Obsidian Integration
