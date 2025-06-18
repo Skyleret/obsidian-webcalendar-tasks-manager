@@ -1,8 +1,6 @@
 # obsidian-webcalendar-tasks-manager
 Pull tasks from webcal:// calendar subscriptions and add them to your obsidian daily note
 
-Here’s the optimized integration for your Obsidian-centric workflow, clearly distinguishing this from being an Obsidian plugin while acknowledging compatibility:
-
 ---
 # iCalendar Task Sync for Obsidian
 
