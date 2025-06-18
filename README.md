@@ -36,5 +36,9 @@ A Python script that syncs tasks from `.ics` calendars to **daily Markdown notes
 ## 🗂️ Obsidian Integration
 Place the output files in your vault and use:
 - The **rollover plugin** to manage unfinished tasks
-```
+
+## Privacy Note
+This tool processes personal calendar data. By using it, you agree to:  
+- Manually manage local files (`tasks.db`, `.md` files)  
+- Not commit sensitive data to version control  
 
