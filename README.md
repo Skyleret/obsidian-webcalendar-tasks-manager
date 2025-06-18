@@ -38,15 +38,3 @@ Place the output files in your vault and use:
 - The **rollover plugin** to manage unfinished tasks
 ```
 
----
-
-### **Revised `.gitignore`**  
-*(Additions for Obsidian projects)*
-```gitignore
-# Obsidian
-.vscode/
-.obsidian/
-
-# Script-specific
-tasks.db
-*.swp
